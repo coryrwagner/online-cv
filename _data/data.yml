@@ -2,6 +2,11 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+site:
+    title: Cory Wagner - Resume
+    description: Resume / CV for Cory Wagner
+    theme_skin: green # blue turquoise green berry orange ceramic
+
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -13,7 +18,7 @@ sidebar:
 
     # Sidebar links
     email: coryrwagner@gmail.com
-    phone: +1 651-307-0700
+    phone: 
     website:  #do not add http://
     linkedin: coryrwagner
     github: coryrwagner
@@ -72,14 +77,14 @@ experiences:
         Managed a five-person team to install and maintain all network equipment, Netware servers, and PC hardware and software on a PC, Mac, and AS/400 Ethernet LAN at the corporate headquarters; a PC LAN in a manufacturing facility; LANs at the distribution centers; independent Ethernet LANs at 36 retail locations; and, single PCs at several remote sites. Installed, configured, and maintained an eight-circuit frame-relay and point-to-point WAN and Internet access, security and software. Designed and maintained the intranet and DNS for over 30 domains. Managed the help desk to ensure fast, quality support.
     - role: Microcomputer Specialist
       time: 1992 — 1995
-      company: Northern Tool + Equipment
+      company: American Red Cross
       details: |
         Responsible for installing and maintaining all hardware and software on an 180-node PC and Mac network, a 30-node PC network at the National Testing Laboratory in Eagan, and single-PC remote sites. Performed administration tasks, including: adds, changes, and deletes of user's NetWare and email accounts for all sites. Installed and configured remote control and remote mail dial-in access.
 
 projects:
     title: Projects
     intro: >
-      Here is a sample of the projects I've helped complete at Landis+Gyr.
+      Here is a sample of the projects I've recently helped complete at Landis+Gyr.
     assignments:
       - title: Data Center Migration
         tagline: "I worked with application owners and IT teammates to plan, document, and implement the migration of all computer systems and data from several offices to two new colocation facilities over three years."
