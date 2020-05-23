@@ -2,24 +2,19 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
-site:
-    title: Cory Wagner - Resume
-    description: Resume / CV for Cory Wagner
-    theme_skin: green # blue turquoise green berry orange ceramic
-
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Cory Wagner
-    tagline: Senior Systems Architect
+    tagline: Senior System Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: coryrwagner@gmail.com
-    phone: 
-    website:  #do not add http://
+    phone:
+    website: #do not add http://
     linkedin: coryrwagner
     github: coryrwagner
     gitlab:
@@ -32,51 +27,49 @@ sidebar:
     interests:
       - item: Cycling
         link: https://rosemountcycling.com/
-
       - item: Woodworking
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-        Pragmatic system architect and administrator with more than 25 years of experience working in IT managing and supporting everything from PCs and users to servers, storage, networking, and cloud. Designed, built, and maintained data centers and production systems for SaaS and managed-service customers for many years at multiple companies. Self-motivated and self-directed with a keen attention to detail.
+        Pragmatic system architect and administrator with more than 25 years of experience working in IT managing and supporting everything from PCs to servers, storage, networking, and cloud. Designed, built, and maintained data centers and production systems for SaaS and managed-service customers for many years at multiple companies. Self-motivated and self-directed with a keen attention to detail.
 
 education:
     - degree: BA in Computer Science
-      university: University of Minnesota — Morris
-      time: 1987 — 1992
+      university: University of Minnesota, Morris
+      time: 1987 – 1992
       details: |
         - Field of Study: Mathematics, Business
         - Activities: student government, newspaper
 
 experiences:
     - role: Senior System Architect
-      time: 2009 — Present
+      time: 2009 – Present
       company: Landis+Gyr
       details: |
         As an architect, I work with product managers, application owners, product-support teams, and my IT teammates to design, document, and implement systems and services for our cloud hosting service, R&D, and IT. I'm able to support a wide variety of infrastructure solutions and technologies in our environment, including: Linux, Solaris, Windows, NAS and SAN storage, VMware vSphere and Horizon VDI.
     - role: IT Manager
-      time: 2005 — 2008
+      time: 2005 – 2008
       company: iProduction
       details: |
         Determined strategy, designed systems, and managed infrastructure for a SaaS web-publishing provider. Provided resource and capacity planning, budgets, documentation, and design assistance to senior management and peers. Designed an architecture to improve performance and reliability.
     - role: System Administrator
-      time: 2002 — 2005
+      time: 2002 – 2005
       company: iProduction
       details: |
         Brought consistency and standards to the server and network environment. Worked very closely with the application-development manager to improve reliability and performance of our application servers. Designed, developed and maintained a scalable email-delivery product that provided a significant portion of company revenue.
     - role: Web Developer
-      time: 2000 — 2002
+      time: 2000 – 2002
       company: iProduction
       details: |
         Worked, primarily for three large accounts, to develop and maintain several web-based applications running on Windows and Solaris platforms. Designed, developed, tested, and implemented several high and low-stakes tests and assessments, which were delivered via the Internet.
     - role: Network Administrator
-      time: 1995 — 2000
+      time: 1995 – 2000
       company: Northern Tool + Equipment
       details: |
         Managed a five-person team to install and maintain all network equipment, Netware servers, and PC hardware and software on a PC, Mac, and AS/400 Ethernet LAN at the corporate headquarters; a PC LAN in a manufacturing facility; LANs at the distribution centers; independent Ethernet LANs at 36 retail locations; and, single PCs at several remote sites. Installed, configured, and maintained an eight-circuit frame-relay and point-to-point WAN and Internet access, security and software. Designed and maintained the intranet and DNS for over 30 domains. Managed the help desk to ensure fast, quality support.
     - role: Microcomputer Specialist
-      time: 1992 — 1995
+      time: 1992 – 1995
       company: American Red Cross
       details: |
         Responsible for installing and maintaining all hardware and software on an 180-node PC and Mac network, a 30-node PC network at the National Testing Laboratory in Eagan, and single-PC remote sites. Performed administration tasks, including: adds, changes, and deletes of user's NetWare and email accounts for all sites. Installed and configured remote control and remote mail dial-in access.
@@ -86,14 +79,14 @@ projects:
     intro: >
       Here is a sample of the projects I've recently helped complete at Landis+Gyr.
     assignments:
-      - title: Data Center Migration
-        tagline: "I worked with application owners and IT teammates to plan, document, and implement the migration of all computer systems and data from several offices to two new colocation facilities over three years."
-
       - title: Horizon VDI
-        tagline: "I worked with a VAR to implement a POC system. We then built multiple production Horizon systems to provide a secure desktop for administering our cloud service and corporate systems."
+        tagline: "Worked with a VAR to implement a POC system. I then built multiple production Horizon systems to provide a secure desktop for administering our cloud service and corporate systems."
 
       - title: SUSE Manager
         tagline: "Installed and implemented SUMA v3.2 in 2018 and configured repositories for multiple Linux flavors and versions. Upgraded to v4.0 and implemented the Content Lifecycle feature to replace the manual processes we had been using to manage packages available to our Linux systems."
+
+      - title: Data Center Migration
+        tagline: "Worked with application owners, product support, and IT teammates, for three years, to plan, document, and implement the migration of all data and services from several offices to two new co-location facilities."
 
       - title: Ansible Roles for SOC2
         tagline: "Wrote many new roles, and modified some existing roles, to check and enforce SOC2 security requirements for our Linux and Solaris systems."
